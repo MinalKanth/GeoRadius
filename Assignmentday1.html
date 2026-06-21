@@ -1,18 +1,27 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoRadius - Circle Area Calculator</title>
+</head>
 
 <body>
 
-<h3> Let us take radius is 10 cm </h3>
+    <h2>GeoRadius</h2>
+    <p>Calculating the area of a circle with a radius of 10 cm.</p>
 
-<p id = "circle"></p>
+    <p id="circle"></p>
 
-<script> 
-var r = 10;
-document.getElementById('circle').innerHTML = 'The area of circle is: ' + Math.PI * r * r ;
+    <script>
+        const radius = 10;
+        const area = Math.PI * radius * radius;
 
-</script> 
+        document.getElementById("circle").innerHTML =
+            `Area of Circle = ${area.toFixed(2)} cm²`;
+    </script>
 
 </body>
 
 </html>
-
