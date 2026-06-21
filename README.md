@@ -1,24 +1,28 @@
-🔵 GeoRadius
+# 🔵 GeoRadius
 
 <div align="center">
 
-A Simple Geometry Calculator Built with JavaScript
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![HTML5](https://img.shields.io/badge/HTML5-Web-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+### A Simple Geometry Calculator Built with JavaScript
 
 Calculate the area of a circle using JavaScript, HTML, and the mathematical constant π (Pi).
 
 </div>
 
-⸻
+---
 
-📖 Overview
+## 📖 Overview
 
 GeoRadius is a beginner-friendly web application that demonstrates how mathematical calculations can be performed dynamically using JavaScript.
 
 The application calculates the area of a circle based on a predefined radius and displays the result directly on the webpage.
 
-⸻
+---
 
-✨ Features
+## ✨ Features
 
 * Calculate circle area using π
 * Dynamic result rendering
@@ -27,65 +31,75 @@ The application calculates the area of a circle based on a predefined radius and
 * Pure HTML and JavaScript
 * No external libraries required
 
-⸻
+---
 
-🧮 Formula Used
+## 🧮 Formula Used
 
 The application calculates circle area using:
 
-genui{“geometry_measurement_learning_block”:{“type_id”:“CIRCLE_AREA”}}
-
 Formula:
 
+```text
 Area = π × r²
+```
 
 Where:
 
-* π = 3.14159…
+* π = 3.14159...
 * r = Radius of the circle
 
-⸻
+---
 
-📂 Project Structure
+## 📂 Project Structure
 
+```bash
 GeoRadius/
 │
 ├── index.html
 └── README.md
+```
 
-⸻
+---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Clone Repository
+### Clone Repository
 
+```bash
 git clone https://github.com/yourusername/georadius.git
+```
 
-Open Project
+### Open Project
 
 Simply open:
 
+```bash
 index.html
+```
 
 in your browser.
 
 No installation required.
 
-⸻
+---
 
-📊 Example Calculation
+## 📊 Example Calculation
 
 Radius:
 
+```text
 10 cm
+```
 
 Result:
 
+```text
 Area = 314.16 cm²
+```
 
-⸻
+---
 
-🎯 Learning Objectives
+## 🎯 Learning Objectives
 
 This project helps beginners understand:
 
@@ -95,16 +109,16 @@ This project helps beginners understand:
 * Template literals
 * Browser rendering
 
-⸻
+---
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 * HTML5
 * JavaScript (ES6)
 
-⸻
+---
 
-🌟 Future Improvements
+## 🌟 Future Improvements
 
 * User input for custom radius
 * Circumference calculator
@@ -112,23 +126,23 @@ This project helps beginners understand:
 * Responsive UI design
 * Dark mode support
 
-⸻
+---
 
-📄 License
+## 📄 License
 
 MIT License
 
-⸻
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Mrinal Kanth Padhi
+**Mrinal Kanth Padhi**
 
 GitHub: https://github.com/MinalKanth
 
 Portfolio: https://mrinal-devfolio.vercel.app
 
-⸻
+---
 
 <div align="center">
 
@@ -136,6 +150,3 @@ Portfolio: https://mrinal-devfolio.vercel.app
 
 </div>
 ```
-:::
-
-This makes the project look like a polished educational geometry utility rather than a basic classroom snippet.
